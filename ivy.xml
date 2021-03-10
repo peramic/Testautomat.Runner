@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+	<info organisation="havis/test/suite" module="runner" default="true" />
+
+	<configurations>
+		<conf name="default" />
+	</configurations>
+	
+	<dependencies>
+		<dependency org="havis/test/suite" name="beans" rev="latest.integration" conf="default" />
+		<dependency org="org/jibx" name="jibx-run" rev="latest.integration" conf="default" />
+		<dependency org="net/sf/saxon" name="Saxon-HE" rev="latest.integration" conf="default" />
+		<dependency org="ch/qos/logback" name="logback-classic" rev="latest.integration" conf="default" />
+		<dependency org="org/antlr" name="ST4" rev="latest.integration" conf="default" />
+	</dependencies>
+
+</ivy-module>

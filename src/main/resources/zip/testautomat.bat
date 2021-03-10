@@ -1,0 +1,1 @@
+java -jar havis.testautomat.runner.jar UICommon.CLI
